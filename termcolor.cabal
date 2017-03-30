@@ -1,7 +1,7 @@
 name:                termcolor
-version:             0.1.0.0
--- synopsis:
--- description:
+version:             0.2.0.0
+synopsis:            Composable terminal colors
+description:         Composable terminal colors
 homepage:            https://github.com/mdibaiee/termcolor#readme
 license:             GPL-3
 license-file:        LICENSE

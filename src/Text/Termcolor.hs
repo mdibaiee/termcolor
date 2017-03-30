@@ -3,4 +3,4 @@ module Text.Termcolor (format) where
 
   format :: Format -> String
   format (Tail input) = input
-  format (Node code f) = "\ESC[" ++ (show code) ++ "m" ++ (format f)
+  format (Node code f) = "\ESC[0;\ESC[" ++ (show code) ++ "m" ++ (format f) ++ "\ESC[0;"
