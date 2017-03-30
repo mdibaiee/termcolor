@@ -12,4 +12,4 @@ import qualified Text.Termcolor.Background as B
 main = putStrLn . format . underline . bold . (light . B.cyan) . (F.red) $ read "Hello World!"
 ```
 
-![demo output](https://github.com/mdibaiee/termcolor/tree/master/raw/demo.jpg)
+![demo output](https://github.com/mdibaiee/termcolor/raw/master/demo.jpg)
